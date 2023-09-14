@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.welcome{
+    width: 100%;
+    background-color: #252B42;
+
+}
+.container-page{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+  
+    font-family: montserrat;
+   
+}
+header{
+   width: 100%;
+    height: 91px;
+   
+}
+.esasnavbar{
+    background-color: #252B42;
+    height: 8vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+}
+.logo{
+    
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    padding-right: 30px;
+}
+
+.cornernav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+.welcome h5{
+    color: #23A6F0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    size: 16px;
+}
+
+.welcome h1{
+    font-weight: 700;
+    font-size: 58px;
+    color: white;
+    padding-top: 15px;
+}
+.welcome p{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+}
+
+.box{
+    background-color: white;
+    width: 328px;
+    height: 292px;
+    padding: 10px;
+    margin: 80px;
+    
+}
+.box3{
+    background-color: #23A6F0;
+    width: 328px;
+    height: 292px;
+    margin: 80px;
+    padding: 10px;
+}
+.icon-container1,
+.icon-container2,
+.icon-container3{
+    height: 76px;
+    width: 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.icon-container2{
+  background-color: #B9EAA8;
+   
+}
+.icon-container1{
+    background-color: #FFDCD1;
+}
+.icon-container3{
+    background-color: rgb(166, 233, 238);
+    color: #23A6F0;
+}  
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    margin-top: 20px;
+}
+.first-button{
+    background-color: #23A6F0;
+    border: #23A6F0;
+    border-radius: 8px;
+    color: white;
+    width: 150px;
+    padding: 15px;
+}
+.second-button{
+    border: #23A6F0 1px solid;
+    background-color: #252B42;
+    color:#23A6F0;
+    border-radius: 8px;
+    width: 150px;
+    padding: 15px;
+}
+
+.box p{
+    color: rgba(0, 0, 0, 0.704);
+    font-size: 14px;
+    width: 24ch;
+  
+}
+.box hr{
+    width: 70px;
+    border: 0;
+    height: 3px;
+    background: red;
+    margin-top: 10px;
+}
+
+.box h3{
+    margin-top: 10px;
+}
+
+.box3 h3{
+    color: white;
+    margin-top: 10px;
+}
+.box3 hr{
+    width: 70px;
+    border: 0;
+    height: 3px;
+    background: white;
+    margin-top: 10px;
+}
+.box3 p{
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 24ch;
+
+}
+.cards{
+    display: flex;
+}
+.secondpage{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    
+}
+img{
+    width: 330px;
+    height: 340px;
+    object-fit: cover;
+}
+.secondpage h2{
+    color: #252B42;
+    width: 15ch;
+}
+.secondpage p{
+    padding-top: 20px;
+    color: #737373;
+}
+.secondpage a{
+    text-decoration: none;
+    color: #23A6F0;
+
+}
+.secondpage hr{
+    width: 70px;
+    border: 0;
+    height: 5px;
+    background: red;
+}
+.firstbox{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+}
+.iconposition{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+.iconposition i{
+     color: #23A6F0;     
+}
+
+.cards{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    margin-top: 50px;
+    /* padding-left: 15px; */
+}
+.cards img{
+
+    object-fit: cover;
+}
+.thirdpage{
+    background-color: white;
+    font-family: Montserrat;
+}
+.headthirdpage{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.container-page{
+    max-width:1300px;
+    margin: 0 auto;
+}
+.firstp{
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.thirdpage h2{
+    color: #252B42;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 15px;
+
+}
+.headthirdpage h6{
+    color: #23A6F0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.thirdpage p{
+
+    font-size: 14px;
+    font-weight: 400;
+    color:#737373;
+    margin-top: 15px;
+}
+
+.cart1{
+ 
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.cart1>img{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+.cart1 a{
+    color: #23A6F0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+.cart1 h5{
+    color: #252B42;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.cart1 p{
+    color:#737373;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.halfcard {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px; 
+}
+.halfcard a{
+    margin-top: 10px;
+}
+.iconnn{
+    display: flex;
+    flex-direction: row;
+    
+}
+.iconnn i{
+    color: #737373;
+}
+.iconnn h6{
+    color: #737373;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+.iconnn i,h6{
+    padding: 5px;
+    margin-top: 10px;
+}
+.iconnn2{
+    display: flex;
+}
+.iconnn2 p{
+font-weight: 700;
+font-size: 16px;
+padding: 5px;
+}
+.learnmore{
+    width: 100px;
+    border: 1px solid #23A6F0;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding: 8px;
+    margin-top: 10px;
+}
+.learnmore:hover{
+   background-color: #496677;
+}
+.fourthpage{
+    background-color: white;
+    height: 100vh;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.halffourthpage h6{
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.halffourthpage h2{
+    color: #252B42;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.halffourthpage p{
+    color: #737373;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.otherhalffourthpage{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+.firstteacher{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.firstteacher img{
+    border-radius: 50%;
+}
+.firstteacher p{
+    color: #737373;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+.firstteacher i{
+    margin-top: 10px;
+    padding: 5px;
+    color: rgb(192, 192, 87);
+}
+.firstteacher h5{
+    margin-top: 10px;
+    color: #252B42;
+    font-weight: 700;
+    font-size: 16px;
+}
+.firstteacher h6{
+    color: #737373;
+}
+.fifthpage{
+   
+    padding: 100px 0;
+    text-align: center;
+}
+.fifthpage h6{
+    color: #23A6F0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.fifthpage h2{
+    color: #252B42;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 15px;
+}
+.fifthpage p{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.input{
+    margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+  
+}
+.input input{
+    width: 40%;
+    padding: 15px;
+    background-color: #E6E6E6;
+    color: #737373;
+    border: #E6E6E6;
+    border-radius: 1px;
+}
+.input button{
+    background-color: #23A6F0;
+    width: 10%;
+    padding: 15PX;
+    color: white;
+    border: #E6E6E6;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #252B42;
+    height: 400px;
+    color: #FFFFFF;
+}
+.lastpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 80px;
+    padding: 120px;
+    
+}
+
+.firstside h3{
+   font-weight: 700;
+   font-size: 24px;
+}
+.firstside p{
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.secondside a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.thirdside a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.fourthside a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
